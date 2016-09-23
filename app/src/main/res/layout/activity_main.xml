@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.techquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F3F3F"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/heading_text"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/welcome_text" />
+
+        <EditText
+            android:id="@+id/candidate_name"
+            style="@style/candidate_data"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/candidate_age"
+            style="@style/candidate_data"
+            android:hint="@string/age"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/heading_text"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/questions_start" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num1" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question1" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_group_1"
+            style="@style/choices_group">
+
+            <RadioButton
+                android:id="@+id/radio1_1"
+                style="@style/choices"
+                android:text="@string/choice1_1" />
+
+            <RadioButton
+                android:id="@+id/radio1_2"
+                style="@style/choices"
+                android:text="@string/choice1_2" />
+
+            <RadioButton
+                android:id="@+id/radio1_3"
+                style="@style/choices"
+                android:text="@string/choice1_3" />
+
+            <RadioButton
+                android:id="@+id/radio1_4"
+                style="@style/choices"
+                android:text="@string/choice1_4" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num2" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question2" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_group_2"
+            style="@style/choices_group">
+
+            <RadioButton
+                android:id="@+id/radio2_1"
+                style="@style/choices"
+                android:text="@string/choice2_1" />
+
+            <RadioButton
+                android:id="@+id/radio2_2"
+                style="@style/choices"
+                android:text="@string/choice2_2" />
+
+            <RadioButton
+                android:id="@+id/radio2_3"
+                style="@style/choices"
+                android:text="@string/choice2_3" />
+
+            <RadioButton
+                android:id="@+id/radio2_4"
+                style="@style/choices"
+                android:text="@string/choice2_4" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num3" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkbox_group_3"
+            style="@style/choices_group">
+
+            <CheckBox
+                android:id="@+id/checkbox3_1"
+                style="@style/choices"
+                android:text="@string/choice3_1" />
+
+            <CheckBox
+                android:id="@+id/checkbox3_2"
+                style="@style/choices"
+                android:text="@string/choice3_2" />
+
+            <CheckBox
+                android:id="@+id/checkbox3_3"
+                style="@style/choices"
+                android:text="@string/choice3_3" />
+
+            <CheckBox
+                android:id="@+id/checkbox3_4"
+                style="@style/choices"
+                android:text="@string/choice3_4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num4" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkbox_group_4"
+            style="@style/choices_group">
+
+            <CheckBox
+                android:id="@+id/checkbox4_1"
+                style="@style/choices"
+                android:text="@string/choice4_1" />
+
+            <CheckBox
+                android:id="@+id/checkbox4_2"
+                style="@style/choices"
+                android:text="@string/choice4_2" />
+
+            <CheckBox
+                android:id="@+id/checkbox4_3"
+                style="@style/choices"
+                android:text="@string/choice4_3" />
+
+            <CheckBox
+                android:id="@+id/checkbox4_4"
+                style="@style/choices"
+                android:text="@string/choice4_4" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num5" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question5" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_group_5"
+            style="@style/choices_group">
+
+            <RadioButton
+                android:id="@+id/radio5_1"
+                style="@style/choices"
+                android:text="@string/choice5_1" />
+
+            <RadioButton
+                android:id="@+id/radio5_2"
+                style="@style/choices"
+                android:text="@string/choice5_2" />
+
+            <RadioButton
+                android:id="@+id/radio5_3"
+                style="@style/choices"
+                android:text="@string/choice5_3" />
+
+            <RadioButton
+                android:id="@+id/radio5_4"
+                style="@style/choices"
+                android:text="@string/choice5_4" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num6" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question6" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_group_6"
+            style="@style/choices_group">
+
+            <RadioButton
+                android:id="@+id/radio6_1"
+                style="@style/choices"
+                android:text="@string/choice6_1" />
+
+            <RadioButton
+                android:id="@+id/radio6_2"
+                style="@style/choices"
+                android:text="@string/choice6_2" />
+
+            <RadioButton
+                android:id="@+id/radio6_3"
+                style="@style/choices"
+                android:text="@string/choice6_3" />
+
+            <RadioButton
+                android:id="@+id/radio6_4"
+                style="@style/choices"
+                android:text="@string/choice6_4" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/nums"
+                android:text="@string/num7" />
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question7" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/answer7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="36dp"
+            android:hint="@string/answer7"
+            android:inputType="textCapWords"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#A5A5A5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/button"
+                android:onClick="showResult"
+                android:text="@string/view_score" />
+
+            <Button
+                style="@style/button"
+                android:onClick="reset"
+                android:text="@string/reset" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

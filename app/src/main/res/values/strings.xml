@@ -1,0 +1,176 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">TechQuiz</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <!-- Hint text display in the empty field for the user's age [CHAR LIMIT=20] -->
+    <string name="age">Age</string>
+
+    <!-- Text display for the topmost heading [CHAR LIMIT=50] -->
+    <string name="welcome_text">Welcome to Tech Quiz!</string>
+
+    <!-- Text display for the heading before the quiz questions start [CHAR LIMIT=50] -->
+    <string name="questions_start">Answer the Following Questions</string>
+
+    <!-- Numbers for the questions [CHAR LIMIT=5] -->
+    <string name="num1">1.</string>
+    <string name="num2">2.</string>
+    <string name="num3">3.</string>
+    <string name="num4">4.</string>
+    <string name="num5">5.</string>
+    <string name="num6">6.</string>
+    <string name="num7">7.</string>
+
+    <!-- Text display for Question 1 [CHAR LIMIT=100] -->
+    <string name="question1">Dial-up is a type of what device?</string>
+
+    <!-- Text display for Question 1 Choices [CHAR LIMIT=50] -->
+    <string name="choice1_1">Hard Drive</string>
+    <string name="choice1_2">Video Card</string>
+    <string name="choice1_3">Modem</string>
+    <string name="choice1_4">CPU</string>
+
+    <!-- Text display for Question 2 [CHAR LIMIT=100] -->
+    <string name="question2">What are URLs saved in a web browser called?</string>
+
+    <!-- Text display for Question 2 Choices [CHAR LIMIT=50] -->
+    <string name="choice2_1">Placeholders</string>
+    <string name="choice2_2">Breadcrumbs</string>
+    <string name="choice2_3">Archives</string>
+    <string name="choice2_4">Bookmarks</string>
+
+    <!-- Text display for Question 3 [CHAR LIMIT=100] -->
+    <string name="question3">Which of the following are names for an Android OS release?</string>
+
+    <!-- Text display for Question 3 Choices [CHAR LIMIT=50] -->
+    <string name="choice3_1">KitKat</string>
+    <string name="choice3_2">Snickers</string>
+    <string name="choice3_3">Nutella</string>
+    <string name="choice3_4">Marshmallow</string>
+
+    <!-- Text display for Question 4 [CHAR LIMIT=100] -->
+    <string name="question4">Which of these are 802.11_ WiFi standards?</string>
+
+    <!-- Text display for Question 4 Choices [CHAR LIMIT=50] -->
+    <string name="choice4_1">a</string>
+    <string name="choice4_2">dx</string>
+    <string name="choice4_3">ac</string>
+    <string name="choice4_4">m</string>
+
+    <!-- Text display for Question 5 [CHAR LIMIT=100] -->
+    <string name="question5">Fingerprint scanning and facial recognition are examples of what?</string>
+
+    <!-- Text display for Question 5 Choices [CHAR LIMIT=50] -->
+    <string name="choice5_1">Ergonomics</string>
+    <string name="choice5_2">Biometrics</string>
+    <string name="choice5_3">Computer Ethics</string>
+    <string name="choice5_4">Vector Graphics</string>
+
+    <!-- Text display for Question 6 [CHAR LIMIT=100] -->
+    <string name="question6">What service allows users to send messages that are automatically deleted?</string>
+
+    <!-- Text display for Question 6 Choices [CHAR LIMIT=50] -->
+    <string name="choice6_1">Instagram</string>
+    <string name="choice6_2">iMessage</string>
+    <string name="choice6_3">Snapchat</string>
+    <string name="choice6_4">Skype</string>
+
+    <!-- Text display for Question 7 [CHAR LIMIT=100] -->
+    <string name="question7">Which tech magazine/blog/vlog you love to read/watch?</string>
+
+    <!-- Hint text display in the empty field for the user's answer to Question 7 [CHAR LIMIT=100] -->
+    <string name="answer7">Type your answer here</string>
+
+    <!-- Text display for the View Score button [CHAR LIMIT=20] -->
+    <string name="view_score">View Score</string>
+
+    <!-- Text display for the Reset button [CHAR LIMIT=20] -->
+    <string name="reset">Reset</string>
+
+    <!--
+      Name and Age for the good result toast. It will be shown in the format of
+      "Congratulations Katherine (26)" where Katherine is the candidate's name and 26 is the candidate's age. [CHAR LIMIT=NONE]
+    -->
+    <string name="candidate_name_and_age_good">Congratulations <xliff:g example="Katherine" id="candidateName">%s</xliff:g> (<xliff:g example="26" id="candidateAge">%s</xliff:g>)</string>
+
+    <!--
+      Name and Age for the fair result toast. It will be shown in the format of
+      "Hello Katherine (26)" where Katherine is the candidate's name and 26 is the candidate's age. [CHAR LIMIT=NONE]
+    -->
+    <string name="candidate_name_and_age_fair">Hello <xliff:g example="Katherine" id="candidateName">%s</xliff:g> (<xliff:g example="26" id="candidateAge">%s</xliff:g>)</string>
+
+    <!--
+      Candidate's result score. It will be shown in the format of
+      "You Scored 4/7" where 4 is the score achieved out of 7. [CHAR LIMIT=NONE]
+    -->
+    <string name="result_score">You Scored  <xliff:g example="4" id="result">%d</xliff:g>/7</string>
+
+    <!--
+      Candidate's answer for question 7. It will be shown in the format of
+      "Android Developers Youtube .. interesting choice!" where Android Developers Youtube is what the user entered. [CHAR LIMIT=NONE]
+    -->
+    <string name="answer_7"><xliff:g example="Android Developers Youtube" id="answer7Text">%s</xliff:g> .. interesting choice!</string>
+
+    <!--
+      Message to keep learning for fair score. It will be shown as
+      "You can do better. Keep learning." [CHAR LIMIT=NONE]
+    -->
+    <string name="keep_learning">You can do better. Keep learning.</string>
+
+    <!--
+      Message to enter Name when not entered. It will be shown as
+      "You need to fill out your NAME." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_name">You need to fill out your NAME.</string>
+
+    <!--
+      Message to enter Age when not entered. It will be shown as
+      "What's your AGE?" [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_age">What\'s your AGE?</string>
+
+    <!--
+      Message when Question 1 not attempted. It will be shown as
+      "Please fill out ANSWER 1." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_1">Please fill out ANSWER 1.</string>
+
+    <!--
+      Message when Question 2 not attempted. It will be shown as
+      "Please fill out ANSWER 2." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_2">Please fill out ANSWER 2.</string>
+
+    <!--
+      Message when Question 3 not attempted. It will be shown as
+      "Please fill out ANSWER 3." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_3">Please fill out ANSWER 3.</string>
+
+    <!--
+      Message when Question 4 not attempted. It will be shown as
+      "Please fill out ANSWER 4." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_4">Please fill out ANSWER 4</string>
+
+    <!--
+      Message when Question 5 not attempted. It will be shown as
+      "Please fill out ANSWER 5." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_5">Please fill out ANSWER 5.</string>
+
+    <!--
+      Message when Question 6 not attempted. It will be shown as
+      "Please fill out ANSWER 6." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_6">Please fill out ANSWER 6.</string>
+
+    <!--
+      Message when Question 7 not attempted. It will be shown as
+      "For ANSWER 7, share some tech resource you recently read/watched instead." [CHAR LIMIT=NONE]
+    -->
+    <string name="empty_answer_7">For ANSWER 7, share some tech resource you recently read/watched instead.</string>
+
+</resources>
